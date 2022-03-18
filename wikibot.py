@@ -1,8 +1,6 @@
 import click
 import wikipedia
 
-from mylib.bot import scrape
-
 
 def scrape(name="wikipedia", length=1):
     result = wikipedia.summary(name, sentences=length)
