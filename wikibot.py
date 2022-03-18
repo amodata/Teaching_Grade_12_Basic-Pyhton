@@ -16,7 +16,7 @@ print(scrape())
 @click.option("--name", help="Web page we want to scrape")
 def cli(name):
     result = scrape(name)
-    click.echo(click.style(f"{result}:", fg="blue"))
+    click.echo(click.style(f"{result}:", fg="white"))
 
 
 if __name__ == "__main__":
